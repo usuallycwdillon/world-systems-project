@@ -14,4 +14,4 @@ slidify("index.Rmd")
 # ```
 
 
-publish(user="usuallycwdillon", repo="mason-hierarchies-summary", host="github")
+publish(user="usuallycwdillon", repo="world-systems-project", host="github")
