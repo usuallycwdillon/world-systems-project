@@ -14,7 +14,7 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-### Project Proposal"
+### Project Proposal
    
 </br>   
    
