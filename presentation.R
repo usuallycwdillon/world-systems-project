@@ -15,3 +15,5 @@ slidify("index.Rmd")
 
 
 publish(user="usuallycwdillon", repo="world-systems-project", host="github")
+
+

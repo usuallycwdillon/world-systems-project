@@ -57,10 +57,10 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
 
 * Quantitative approach to world history 
 * Divides the international political economy worlds: 
- - core ($1^{st}$ world)
- - semi-periphery ($2^{nd}$ world)
- - periphery ($3^{rd}$ world)
-* Often applied in conjunction with "dependence theory" to explain differing development rates around the world
+ - core ( $1^{st}$ world)
+ - semi-periphery ( $2^{nd}$ world)
+ - periphery ( $3^{rd}$ world)
+* Often applied in conjunction with ``dependence theory'' to explain differing development rates around the world
 
 
 ***
@@ -89,10 +89,23 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
 ### Data
 
 * COW data easily had
-* world-systems network data seems impossible to find
- - hot on the trail
- - might be re-created with published methods
- - ...but I don't want to do that work, too
+* COW Trade data is incomplete, several inconsistencies
+* No (current) world-system network data
+ - Norbum 1900-1960
+ - Text of Michael Haas 1968 World Hierarchies data
+ - Gravity data for war-trade relationships (Ward, et al 2013)
+
+
+***
+
+### World Trade Data
+
+* Cross-National Time Series Data Archive: CNTS (Banks 1968)
+* Maddison Historical Statistics (Maddison 2013)
+* Other incomplete sets:
+ - World Trade Organization
+ - Economics Web Institute
+
 
 --- &vertical
 
@@ -111,6 +124,13 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
 
 ---
 
-## Questions
+## Status
 
+* Still building annual networks 1870-2009
+ - Chase-Dunn _openness_ measure:  ${imports} / {per capita GDP}$
+ - Barbieri (COW) trade + Maddison _per capita_ GDP
+ - MPP imputation for Maddison data
+* Undecided on some metrics
+ - UCINET/SNA core-periphery _vs_ igraph ``coreness''
+ - 3 x 3 (core, semi-per, periphery) _vs_ 2 x 2
 
